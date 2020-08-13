@@ -1,0 +1,28 @@
+<view class="home">
+  <!-- tab-control的替代 -->
+  <view wx:if="{{isTabFixed}}">
+    <z-tab-control titles="{{titles}}"/>
+  </view>
+  
+  <!-- 1.展示轮播图 -->
+  <z-swiper list="{{banners}}"/>
+
+  <!-- 2.展示推荐的数据 -->
+  <z-recommend list="{{recommends}}" bind:imgLoad="handleImageLoad"/>
+
+  <!-- 3.展示本周流行 -->
+  <z-popular/>
+
+  <!-- 4.tab-control -->
+  <z-tab-control titles="{{titles}}" 
+                bind:tabClick="tabControlClick"
+                id="tab-control"
+                class="{{isTabFixed ?  'fixed' : ''}}"/>
+
+  <!-- 5.展示商品数据 -->
+  <z-goods goodsList="{{goods[currentType].list}}"/>
+
+  <!-- 6.back-top -->
+  <!-- hidden对于自定义的组件是无效的 -->
+  <z-back-top wx:if="{{showBackTop}}" bind:back-top="backTop"/>
+</view>

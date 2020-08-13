@@ -1,0 +1,24 @@
+<!--pages/profile/childCpns/z-info/z-info.wxml-->
+<view class='info'>
+  <view class='info-money info-item'>
+    <view>
+      <text class='count'>0.00</text>
+      <text class="text">元</text>
+    </view>
+    <view class="view">我的余额</view>
+  </view>
+  <view class='info-discount info-item'>
+    <view>
+      <text class='count'>0</text>
+      <text class="text">个</text>
+    </view>
+    <view class="view">我的优惠</view>
+  </view>
+  <view class='info-pointer info-item'>
+    <view>
+      <text class='count'>0</text>
+      <text class="text">分</text>
+    </view>
+    <view class="view">我的积分</view>
+  </view>
+</view>

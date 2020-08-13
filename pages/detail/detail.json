@@ -1,0 +1,14 @@
+{
+  "navigationBarTitleText": "详情页",
+  "usingComponents": {
+    "z-swiper": "/components/z-swiper/z-swiper",
+    "z-base-info": "./childCpns/z-base-info/z-base-info",
+    "z-shop-info": "./childCpns/z-shop-info/z-shop-info",
+    "z-detail-info": "./childCpns/z-detail-info/z-detail-info",
+    "z-param-info": "./childCpns/z-param-info/z-param-info",
+    "z-comment-info": "./childCpns/z-comment-info/z-comment-info",
+    "z-recommend": "./childCpns/z-recommend/z-recommend",
+    "z-bottom-bar": "./childCpns/z-bottom-bar/z-bottom-bar",
+    "z-back-top": "/components/z-back-top/z-back-top"
+  }
+}

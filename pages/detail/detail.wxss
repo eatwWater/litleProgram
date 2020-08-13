@@ -1,0 +1,23 @@
+/* pages/detail/detail.wxss */
+/* .z-detail {
+ height: 100%;
+} */
+
+.content {
+  position: relative;
+  height: 100%;
+}
+
+.detail {
+  height: calc(100vh - 120rpx);
+  /* height:100vh; */
+}
+
+.bottom-bar {
+  /* height: 120rpx; */
+  /* background: red; */
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}

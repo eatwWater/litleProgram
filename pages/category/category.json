@@ -1,0 +1,8 @@
+{
+  "usingComponents": {
+    "z-menu": "./childCpns/z-menu/z-menu",
+    "z-content": "./childCpns/z-content/z-content"
+  },
+  "navigationBarTitleText": "商品分类",
+  "enablePullDownRefresh": true
+}

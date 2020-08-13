@@ -1,0 +1,27 @@
+<!--pages/detail/detail.wxml-->
+  <!-- <scroll-view class="detail" 
+             scroll-y
+             bind:scroll="handleBindScroll">
+    <z-swiper class="swiper" list="{{topImages}}"/>
+    <z-base-info baseInfo="{{baseInfo}}"/>
+    <z-shop-info shopInfo="{{shopInfo}}"/>
+    <z-detail-info detailInfo="{{detailInfo}}"/>
+    <z-param-info paramInfo="{{paramInfo}}"/>
+    <z-comment-info commentInfo="{{commentInfo}}"/>
+    <z-recommend recommends="{{recommends}}"/>
+    <z-back-top wx:if="{{isShowBackTop}}"/>
+  </scroll-view> -->
+  <view class="content">
+    <scroll-view id="detail" class="detail" scroll-y>
+      <z-swiper class="swiper" list="{{topImages}}"/>
+      <z-base-info baseInfo="{{baseInfo}}"/>
+      <z-shop-info shopInfo="{{shopInfo}}"/>
+      <z-detail-info detailInfo="{{detailInfo}}"/>
+      <z-param-info paramInfo="{{paramInfo}}"/>
+      <z-comment-info commentInfo="{{commentInfo}}"/>
+      <z-recommend recommends="{{recommends}}"/>
+    </scroll-view>
+    <z-bottom-bar class="bottom-bar" bind:addToCart="onAddCart"/>
+  </view>
+  
+    

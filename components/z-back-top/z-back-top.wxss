@@ -1,0 +1,12 @@
+/* components/z-back-top/z-back-top.wxss */
+.back-top {
+  position: fixed;
+  right: 40rpx;
+  bottom: 90rpx;
+  z-index: 10;
+}
+
+.back-top .image {
+  height: 100rpx;
+  width: 100rpx;
+}

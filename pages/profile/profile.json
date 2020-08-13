@@ -1,0 +1,8 @@
+{
+  "usingComponents": {
+    "z-header": "./childCpns/z-header/z-header",
+    "z-info": "./childCpns/z-info/z-info",
+    "z-list-item": "./childCpns/z-list-item/z-list-item"
+  },
+  "navigationBarTitleText": "我的"
+}
